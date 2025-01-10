@@ -32,12 +32,12 @@ const Contact = () => {
         </form>
 
         {/* Location Image */}
-        <div className="w-full max-w-md">
+        <div className='w-full max-w-md' >
        
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.3425189298823!2d73.8731515742373!3d18.51523638257728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c045b7555797%3A0x6097977d91651c5d!2sI%20Fitness%20Destiny!5e1!3m2!1sen!2sin!4v1736169510132!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe className='w-full max-w-md' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.3425189298823!2d73.8731515742373!3d18.51523638257728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c045b7555797%3A0x6097977d91651c5d!2sI%20Fitness%20Destiny!5e1!3m2!1sen!2sin!4v1736169510132!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
            
-          <p className="mt-4 text-center text-gray-600">Find us at our convenient location!</p>
+          {/* <p className="mt-4 text-center text-gray-600">Find us at our convenient location!</p> */}
         </div>
       </div>
 

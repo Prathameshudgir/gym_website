@@ -1,7 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
+
 const Service = () => {
+
+
   const services = [
     {
       title: "Personal Training",
