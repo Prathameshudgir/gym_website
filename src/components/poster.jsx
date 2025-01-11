@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Poster = () => {
   return (
@@ -16,9 +17,12 @@ const Poster = () => {
             <li>Flexible membership plans</li>
             <li>Exclusive diet and workout plans</li>
           </ul>
+          <NavLink to ="/joinnow">
+            
           <button className="bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded">
             Join Now
           </button>
+          </NavLink>
         </div>
         <img
           src="/src/assets/pexels-cesar-galeao-1673528-3253501.jpg"

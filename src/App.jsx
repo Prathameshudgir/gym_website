@@ -49,12 +49,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Home from "./components/home";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
+import SignUp from "./components/signup";
 import Login from "./components/login";
 import Hero from "./components/hero";
 import Service from "./components/service";
 import Poster from "./components/Poster";
+import JoinNow from "./components/joinnow";
 import Blog from "./components/blog";
 import Membership from "./components/Membership";
+
 import Contact from "./components/contact";
 import About from "./components/about";
 import Footer from "./components/footer";
@@ -73,10 +76,12 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
           <Route path="/hero" element={<Hero />} />
+          <Route path="signup" element={<SignUp />} />
           <Route path="/service" element={<Service />} />
           <Route path="/poster" element={<Poster />} />
           <Route path="/membership" element={<Membership />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/joinnow" element={<JoinNow />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>

@@ -1,5 +1,6 @@
 // Import necessary modules
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "tailwindcss/tailwind.css";
 
 const Hero = () => {
@@ -25,9 +26,11 @@ const Hero = () => {
         <p className="text-lg md:text-2xl mb-6">
           Join us today and achieve your fitness goals with our expert trainers and state-of-the-art equipment.
         </p>
+        <NavLink to="/signup">
         <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-semibold text-lg">
           Get Started
         </button>
+        </NavLink>
       </div>
     </div>
   );

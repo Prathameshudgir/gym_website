@@ -1,5 +1,6 @@
 // components/MembershipPlans.js
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 const plans = [
   { title: 'Basic', price: '$20/month', features: ['Gym Access', '1 Class/Week'] },
   { title: 'Standard', price: '$50/month', features: ['Gym Access', '5 Classes/Week', '1 Personal Trainer Session'] },
@@ -20,7 +21,9 @@ const Membership = () => {
                 <li key={i} className="text-gray-700">- {feature}</li>
               ))}
             </ul>
+            <NavLink to="/joinnow">
             <button className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Join Now</button>
+            </NavLink>
           </div>
         ))}
       </div>
